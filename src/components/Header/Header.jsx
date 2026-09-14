@@ -30,7 +30,7 @@ const Header = () => {
             <Link
               onClick={() => setMenuOpened(false)}
               to="home"
-              span={true}
+              spy={true}
               smooth={true}
             >
               Home
